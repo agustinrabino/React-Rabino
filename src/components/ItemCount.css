@@ -1,0 +1,16 @@
+.itemCount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: black;
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+
+.count{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95px;
+}

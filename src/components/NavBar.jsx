@@ -1,38 +1,33 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from '../logo.svg';
+import logo from '../assets/logo-shoe.svg';
 import { CartWidget } from './CartWidget';
+import { NavLink } from "react-router-dom"
+import { Nav } from 'react-bootstrap';
+import "./NavBar.css"
 
 
 export function NavBar() {
   return (
-      <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar expand="lg" className="shadow-sm">
         <Container>
-          <a className="brand-logo" href="#home">
+          <Nav.Link className="brand-logo" to="/" as={NavLink}>
             <img
               alt=""
               src={logo}
-              width="70px"
+              width="50px"
               className="nav-logo"
             />
-            Foot Locker
-          </a>
+            <div>Foot Locker</div>
+          </Nav.Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <div className="me-auto">
               <ul className='navbar-nav reset-spacing'>
-                <li class="">
-                  <a class="nav-menu" href="#">Categories</a>
-                </li>
-                <li class="">
-                  <a class="nav-menu" href="#">New Arrivals</a>
-                </li>
-                <li class="">
-                  <a class="nav-menu" href="#">Featured</a>
-                </li>
-                <li class="">
-                  <a class="nav-menu" href="#">Sale</a>
-                </li>
+                <Nav.Link className="nav-menu" to="/categories" as={NavLink}>Categories</Nav.Link>
+                <Nav.Link className="nav-menu" to="/newarrivals" as={NavLink}>New Arrivals</Nav.Link>
+                <Nav.Link className="nav-menu" to="/featured" as={NavLink}>Featured</Nav.Link>
+                <Nav.Link className="nav-menu" to="/sales" as={NavLink}>Sale</Nav.Link>
               </ul>
             </div>
             <CartWidget/>
