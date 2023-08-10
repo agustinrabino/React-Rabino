@@ -11,14 +11,16 @@ export function NavBar() {
   return (
       <Navbar expand="lg" className="shadow-sm">
         <Container>
-          <Nav.Link className="brand-logo" to="/" as={NavLink}>
-            <img
-              alt=""
-              src={logo}
-              width="50px"
-              className="nav-logo"
-            />
-            <div>Foot Locker</div>
+          <Nav.Link to="/" as={NavLink}>
+            <div className="brand-logo" >
+              <img
+                alt=""
+                src={logo}
+                width="50px"
+                className="nav-logo"
+                />
+              <div>Foot Locker</div>
+            </div>
           </Nav.Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

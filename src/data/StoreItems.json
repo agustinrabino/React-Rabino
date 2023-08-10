@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Air Jordan 1 Retro High",
+        "price": 150.00,
+        "imgUrl": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6acedb46-7fa4-40e1-9bd2-dbb651e986a3/air-jordan-1-retro-high-og-mens-shoes.png",
+        "info": "Sophisticated and bold, this luxe take on the AJ1 delivers high-fashion bravado with equine flair. "   
+    },
+    {
+        "id": 2,
+        "name": "Air Jordan 2 Retro",
+        "price": 180.00,
+        "imgUrl": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0babf764-431b-44e1-a343-e4ea43f01226/air-jordan-2-retro-womens-shoes-L5cGbz.png",
+        "info": "Celebrate the greatest streetball show on earth in the AJ2 'Crystal Mint.' Featuring premium leather and a marbled tongue logo"   
+    },
+    {
+        "id": 3,
+        "name": "Air Jordan 3 Retro",
+        "price": 160.00,
+        "imgUrl": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/34f07fee-ec12-4d46-b53f-6bced05247de/air-jordan-3-retro-mens-shoes-5M3ZlK.png",
+        "info": "Clean and supreme, the AJ3 returns with all of its classic style and grace. Quality leather and a luxurious elephant print texture"   
+    },
+    {
+        "id": 4,
+        "name": "Air Jordan 4 Retro",
+        "price": 180.00,
+        "imgUrl": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d38a8673-342b-4d4a-bc9b-4c105018de19/air-jordan-4-retro-mens-shoes.png",
+        "info": "New fire. Reigniting a beloved brand color, the AJ4 'Red Cement' brings a heritage twist to the buzzer-beating silhouette"   
+    },
+    {
+        "id": 5,
+        "name": "Air Jordan 5 Retro",
+        "price": 200.00,
+        "imgUrl": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/00f2bef5-27b5-4c46-ab22-6a4f1202df71/air-jordan-5-retro-se-mens-shoes-07Xgmw.png",
+        "info": "the AJ5 is unmistakable. This version features a mix of full-grain and synthetic leather for texture"   
+    },
+    {
+        "id": 6,
+        "name": "Jordan 6",
+        "price": 150.00,
+        "imgUrl": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/810ce140-954a-4002-aedb-ca459f1d9858/air-jordan-6-retro-mens-shoes-QLGPHR.png",
+        "info": "MJ wore 'em when he claimed his first championship and you'll be wearing 'em for—well, whatever you want"   
+    },
+    {
+        "id": 7,
+        "name": "Jordan 7",
+        "price": 175.00,
+        "imgUrl": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/59dd6e46-4b73-460e-b4b1-c9cba51099c3/air-jordan-7-retro-mens-shoes-B7QhMr.png",
+        "info": "Inspired by the shoe originally worn by MJ during the '92 season and summer of basketball"   
+    }
+
+]

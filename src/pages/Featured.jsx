@@ -1,4 +1,9 @@
+import { Container } from "react-bootstrap";
+
 export function Featured() {
-    return( <h1>Featured</h1>
-    )
+    return( 
+        <Container>
+            <h1>Featured</h1>
+        </Container>
+        )
 }

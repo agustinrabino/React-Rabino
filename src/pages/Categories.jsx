@@ -1,4 +1,9 @@
+import { Container } from "react-bootstrap";
+
 export function Categories() {
-    return( <h1>Categories</h1>
+    return( 
+    <Container>
+        <h1>Categories</h1>
+    </Container>
     )
 }

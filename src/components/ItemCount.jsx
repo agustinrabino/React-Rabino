@@ -12,7 +12,7 @@ return(
     <div className='itemCount'>
         <div className='count'>
             <Button onClick ={handleClickDecrement} buttonStyle="countCart">-</Button>
-            <span>{item}</span>
+            <span style={{color:"white"}}>{item}</span>
             <Button onClick ={handleClickIncrement} buttonStyle="countCart">+</Button>
         </div>
         <Button onClick={handleSubmit} buttonStyle="addItemCart">Add to Cart</Button>

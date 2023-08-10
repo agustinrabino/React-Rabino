@@ -1,4 +1,9 @@
+import { Container } from "react-bootstrap";
+
 export function NewArrivals() {
-    return( <h1>New Arrivals</h1>
-    )
+    return( 
+        <Container>
+            <h1>New Arrivals</h1>
+        </Container>
+        )
 }

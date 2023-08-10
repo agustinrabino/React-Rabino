@@ -1,4 +1,9 @@
+import { Container } from "react-bootstrap";
+
 export function ShoppingCart() {
-    return( <h1>Shopping Cart</h1>
-    )
+    return( 
+        <Container>
+            <h1>Shopping Cart</h1>
+        </Container>
+        )
 }
