@@ -10,7 +10,7 @@ export function ItemList() {
 
     useEffect(()=>{
         const promise = new Promise((resolve, reject)=>{
-            setTimeout(()=> resolve(data),3000)
+            setTimeout(()=> resolve(data),1)
         })
         promise.then(data=> setStoreItems(data))
     }, [])
@@ -21,8 +21,8 @@ export function ItemList() {
             ) : (
                 storeItems.map(item => {
                     return(
-                        <Col key={item.id}>
-                        <Item {...item}></Item>
+                        <Col>
+                        <Item key={item.id} {...item}></Item>
                         </Col>
                     )})
             )

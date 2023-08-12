@@ -1,13 +1,26 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
-import "./CartWidget.css"
-import { NavLink } from "react-router-dom";
+import { useState } from "react";
+import { ShoppingCart } from "./ShoppingCart";
+import { useShoppingCart } from "../context/ShoppingCartContext.jsx"
 
 export function CartWidget() {
+  const {cartItems, cartQuantity} = useShoppingCart()
   return (
-    <NavLink className="nav-cart" to="/shoppingcart" as={NavLink}>
-      <FontAwesomeIcon icon={faCartShopping} className="fontAweCart"/>
-      <div className="cartItemCount">23</div>
-    </NavLink>
+    <div className="d-flex m-1" style={{
+                    position: "relative",
+                    width:"32px" }}>
+      <ShoppingCart
+      ></ShoppingCart>
+      {cartQuantity > 0 && (
+      <div className="rounded-circle bg-danger rounded-circle d-flex justify-content-center align-items-center" style={{
+                    fontSize:"13px",
+                    color:"white",
+                    position:"absolute",
+                    bottom:"0",
+                    right:"0",
+                    width:"23px",
+                    height:"23px",
+                    transform:"translate(40%, 30%)"  }}>{cartQuantity}
+      </div> )}
+    </div>
   );
 }
