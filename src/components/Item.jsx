@@ -1,14 +1,9 @@
 import Card from 'react-bootstrap/Card';
 import { FormatCurrency } from '../utilities/FormatCurrency';
-import { useShoppingCart } from '../context/ShoppingCartContext';
-import { useState } from 'react'
-import { Button } from './Button'
+import { ItemAddButton } from './ItemAddButton';
+
 
 export function Item({id, name, info, price, imgUrl}) {
-  const {addCartQuantity} = useShoppingCart()
-  const [quantity, setQuantity] = useState(0)
-  const handleClickDecrement = () => {setQuantity(quantity - 1)}
-  const handleClickIncrement = () => {setQuantity(quantity + 1)}
 
     return (
     <Card border="dark" className='h-100'>
@@ -24,19 +19,7 @@ export function Item({id, name, info, price, imgUrl}) {
             }}>{FormatCurrency(price)}</span>
           </Card.Text>
         </div>
-        <div className='d-flex justify-content-center mt-auto' style={{
-                          backgroundColor:"black",
-                          borderRadius:"10px",
-                          width:"clamp(240px, 10vw, 500px)",
-                          gap:"5px",
-                          padding:"1px 8px"}}>
-          <div className='d-flex justify-content-between align-items-center' style={{width:"95px"}}>
-              <Button onClick ={handleClickDecrement} buttonStyle="countCart">-</Button>
-              <span style={{color:"white"}}>{quantity}</span>
-              <Button onClick ={handleClickIncrement} buttonStyle="countCart">+</Button>
-          </div>
-          <Button onClick={()=>addCartQuantity(id, quantity)} buttonStyle="addItemCart">Add to Cart</Button>
-        </div>
+        <ItemAddButton id={id}></ItemAddButton>
       </Card.Body>
     </Card>
   );
