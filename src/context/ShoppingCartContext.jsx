@@ -14,23 +14,17 @@ export function ShoppingCartProvider({children}) {
     const cartQuantity = cartItems.reduce(
         (quantity, item) => item.quantity + quantity, 0
         )
-    
-    function getItemQuantity(id) {
-        return(
-            cartItems.find(item => item.id === id) ?.quantity || 0
-        )
-    }
 
-    function addCartQuantity(id, number) {
+    function addCartQuantity(id, number, size) {
         setCartItems(currItems => {
-            if (currItems.find(item => item.id === id) == null){
+            if (currItems.find(item => (item.id ===id && item.size == size)) == null){
                 return(
-                    [...currItems, {id, quantity:number}]
+                    [...currItems, {id, size, quantity:number}]
                 )
             } else {
                 return(
                     currItems.map(item => {
-                        if (item.id ===id) {
+                        if (item.id ===id && item.size == size) {
                             return(
                                 {...item, quantity: item.quantity + number}
                             )
@@ -43,24 +37,20 @@ export function ShoppingCartProvider({children}) {
         })
     }
 
-    function removeFromCart(id) {
+    function removeFromCart(id, size) {
         setCartItems(currItems => {
             return(
-                currItems.filter(item => item.id !== id)
+                currItems.filter(item => (item.id !==id || item.size != size))
             )
         })
     }
 
-    function increaseQuantity(id) {
+    function increaseQuantity(id, size) {
         setCartItems(currItems => {
-            if (currItems.find(item => item.id === id) == null){
-                return(
-                    [...currItems, {id, quantity:1}]
-                )
-            } else {
+            if (currItems.find(item => (item.id === id && item.size == size))){
                 return(
                     currItems.map(item => {
-                        if (item.id ===id) {
+                        if (item.id ===id && item.size == size) {
                             return(
                                 {...item, quantity: item.quantity + 1}
                             )
@@ -73,16 +63,16 @@ export function ShoppingCartProvider({children}) {
         })
     }
 
-    function decreaseQuantity(id) {
+    function decreaseQuantity(id, size) {
         setCartItems(currItems => {
-            if (currItems.find(item => item.id === id)?.quantity ===1){
+            if (currItems.find(item => (item.id === id && item.size == size))?.quantity ===1){
                 return(
-                    currItems.filter (item =>item.id !==id)
+                    currItems.filter (item =>(item.id !==id || item.size != size))
                 )
             } else {
                 return(
                     currItems.map(item => {
-                        if (item.id ===id) {
+                        if (item.id === id && item.size == size) {
                             return(
                                 {...item, quantity: item.quantity -1}
                             )
@@ -100,7 +90,6 @@ export function ShoppingCartProvider({children}) {
         cartItems,
         setCartItems,
         cartQuantity,
-        getItemQuantity,
         addCartQuantity,
         removeFromCart,
         increaseQuantity,

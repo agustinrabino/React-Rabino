@@ -28,10 +28,9 @@ export function NavBar() {
           <Navbar.Collapse id="basic-navbar-nav">
             <div className="me-auto">
               <ul className='navbar-nav'>
+                <Nav.Link to="/products" as={NavLink}>Products</Nav.Link>
                 <Nav.Link to="/categories" as={NavLink}>Categories</Nav.Link>
                 <Nav.Link to="/newarrivals" as={NavLink}>New Arrivals</Nav.Link>
-                <Nav.Link to="/featured" as={NavLink}>Featured</Nav.Link>
-                <Nav.Link to="/sales" as={NavLink}>Sale</Nav.Link>
               </ul>
             </div>
             <CartWidget/>

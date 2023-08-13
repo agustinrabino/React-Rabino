@@ -1,26 +1,25 @@
 import Carousel from 'react-bootstrap/Carousel';
-import jordan1 from "../assets/jordan1.jpg";
-import jordan2 from "../assets/jordan2.jpg";
-import jordan3 from "../assets/jordan3.jpg";
 
-export function HeroCarousel() {
+
+export function HeroCarousel({carouselWidth, shoe}) {
   return (
-    <Carousel className='d-flex' style={{
-                        width:"70%",
-                        height:"inherit"  }}>
-      <Carousel.Item className=''>
-        <img src={jordan1} className='' style={{
+    <Carousel className={` ${carouselWidth}`} style={{ height: "clamp(300px, 50vw, 700px)" }}>
+      <Carousel.Item className="w-100" style={{ height: "clamp(300px, 50vw, 700px)" }}>
+        <img src={shoe.imgUrl} className='' style={{
                               objectFit:"contain",
+                              height:"100%",
                               width:"100%"  }}alt="" />
       </Carousel.Item>
-      <Carousel.Item className=''>
-        <img src={jordan2} className='' style={{
+      <Carousel.Item className="w-100" style={{ height: "clamp(300px, 50vw, 700px)" }}>
+        <img src={shoe.imgUrl2} className='' style={{
                               objectFit:"contain",
+                              height:"100%",
                               width:"100%"  }}alt="" />
       </Carousel.Item>
-      <Carousel.Item className=''>
-        <img src={jordan3} className='' style={{
+      <Carousel.Item className="w-100" style={{ height: "clamp(300px, 50vw, 700px)" }}>
+        <img src={shoe.imgUrl3} className='' style={{
                               objectFit:"contain",
+                              height:"100%",
                               width:"100%"  }}alt="" />
       </Carousel.Item>
     </Carousel>

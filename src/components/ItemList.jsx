@@ -10,7 +10,7 @@ export function ItemList() {
 
     useEffect(()=>{
         const promise = new Promise((resolve, reject)=>{
-            setTimeout(()=> resolve(data),1)
+            setTimeout(()=> resolve(data),100)
         })
         promise.then(data=> setStoreItems(data))
     }, [])

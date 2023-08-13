@@ -3,12 +3,11 @@ export function Button(
     type,
     onClick,
     buttonStyle,
-    buttonSize
     }) {
 
     return(
         <button
-        className={`${buttonStyle} ${buttonSize}`}
+        className={`${buttonStyle}`}
         onClick={onClick}
         type={type}
         >

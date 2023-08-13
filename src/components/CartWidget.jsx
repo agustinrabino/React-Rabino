@@ -1,9 +1,8 @@
-import { useState } from "react";
 import { ShoppingCart } from "./ShoppingCart";
 import { useShoppingCart } from "../context/ShoppingCartContext.jsx"
 
 export function CartWidget() {
-  const {cartItems, cartQuantity} = useShoppingCart()
+  const {cartQuantity} = useShoppingCart()
   return (
     <div className="d-flex m-1" style={{
                     position: "relative",
