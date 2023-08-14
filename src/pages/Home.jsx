@@ -2,7 +2,6 @@ import { Container } from "react-bootstrap";
 import { Button } from "../components/Button";
 import { HeroCarousel } from "../components/HeroCarousel";
 import { NavLink } from "react-router-dom"
-import { SearchBar } from "../components/SearchBar";
 import data from "../data/StoreItems.json";
 
 
@@ -25,7 +24,7 @@ export function Home() {
           <HeroCarousel carouselWidth="w-75" shoe={shoe}></HeroCarousel>
       </Container>
       <div className="App">
-        <SearchBar></SearchBar>
+
       </div>
     </>
   );

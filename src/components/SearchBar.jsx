@@ -1,31 +1,22 @@
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import { useState } from 'react';
 
 
-export function SearchBar() {
-
+export function SearchBar({updateFilter}) {
     return (
-        <>
-            <Form inline>
-                <Row>
-                <Col xs="auto">
-                    <Form.Control
+        <div className="d-flex justify-content-end my-2">
+            <Form inline> 
+                <Form.Control
                     type="text"
                     placeholder="Search"
                     className=" mr-sm-2"
+                    onChange={(e)=>updateFilter(e.target.value)}
                     />
-                </Col>
-                <Col xs="auto">
-                    <Button type="submit">
-                    <FontAwesomeIcon icon={faMagnifyingGlass} />
-                    </Button>
-                </Col>
-                </Row>
             </Form>
-        </>
+        </div>
     );
 }
