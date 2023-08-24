@@ -3,78 +3,184 @@
         "id": 1,
         "name": "Air Jordan 1 Retro High",
         "price": 150.00,
-        "imgUrl": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6acedb46-7fa4-40e1-9bd2-dbb651e986a3/air-jordan-1-retro-high-og-mens-shoes.png",
-        "imgUrl2": "https://static.nike.com/a/images/t_prod_sc/w_640,c_limit,f_auto/a93d5676-5f8e-4e38-bdba-d55210ddcd3c/air-jordan-1-palomino-dz5485-020-release-date.jpg",
-        "imgUrl3": "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/5d13078c-28c4-4473-a207-ec93f3a3a8d9/air-jordan-1-palomino-dz5485-020-release-date.jpg",
-        "imgUrl4": "https://static.nike.com/a/images/t_prod,f_auto/w_1920,c_limit/42bae558-9acb-43a9-b194-c15a6dbbdad9/air-jordan-1-palomino-dz5485-020-release-date.jpg",
-        "info": "Sophisticated and bold, this luxe take on the AJ1 delivers high-fashion bravado with equine flair. Premium leather pairs with Palomino panache, making your next 'fit smooth like MJ's game. And that pop of color on the tongue? Straight up gold.",
-        "sizes": ["6","7","8","9","10","11","12"]
+        "url": [
+            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/6acedb46-7fa4-40e1-9bd2-dbb651e986a3/air-jordan-1-retro-high-og-mens-shoes.png",
+            "https://static.nike.com/a/images/t_prod_sc/w_640,c_limit,f_auto/a93d5676-5f8e-4e38-bdba-d55210ddcd3c/air-jordan-1-palomino-dz5485-020-release-date.jpg",
+            "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/5d13078c-28c4-4473-a207-ec93f3a3a8d9/air-jordan-1-palomino-dz5485-020-release-date.jpg",
+            "https://static.nike.com/a/images/t_prod,f_auto/w_1920,c_limit/42bae558-9acb-43a9-b194-c15a6dbbdad9/air-jordan-1-palomino-dz5485-020-release-date.jpg"
+        ],
+       "info": "Sophisticated and bold, this luxe take on the AJ1 delivers high-fashion bravado with equine flair. Premium leather pairs with Palomino panache, making your next 'fit smooth like MJ's game. And that pop of color on the tongue? Straight up gold.",
+        "sizes": ["6","7","8","9","10","11","12"],
+        "category": "Shoes"
     },
     {
         "id": 2,
         "name": "Air Jordan 2 Retro",
         "price": 180.00,
-        "imgUrl": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0babf764-431b-44e1-a343-e4ea43f01226/air-jordan-2-retro-womens-shoes-L5cGbz.png",
-        "imgUrl2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/68072777-421c-4c91-828c-33d917be2d9b/air-jordan-2-retro-womens-shoes-L5cGbz.png",
-        "imgUrl3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/321a441d-989b-44f1-8870-85f57ab2614c/air-jordan-2-retro-womens-shoes-L5cGbz.png",
+        "url": [
+            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0babf764-431b-44e1-a343-e4ea43f01226/air-jordan-2-retro-womens-shoes-L5cGbz.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/68072777-421c-4c91-828c-33d917be2d9b/air-jordan-2-retro-womens-shoes-L5cGbz.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/321a441d-989b-44f1-8870-85f57ab2614c/air-jordan-2-retro-womens-shoes-L5cGbz.png"
+        ],
         "info": "Celebrate the greatest streetball show on earth in the AJ2 'Crystal Mint.' Repping sneaker history and NYC's best up-and-coming players, hometown colors and graphics bring the summer tournament to your feet. Premium leather showcases your inimitable game while Rose Gold eyelets and a marbled tongue logo pay homage to the iconic landmark that stands tall in New York Harbor. It's game time!",
-        "sizes": ["8","9","10"]
+        "sizes": ["8","9","10"],
+        "category": "Shoes"
 
     },
     {
         "id": 3,
         "name": "Air Jordan 3 Retro",
         "price": 160.00,
-        "imgUrl": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/34f07fee-ec12-4d46-b53f-6bced05247de/air-jordan-3-retro-mens-shoes-5M3ZlK.png",
-        "imgUrl2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1aab1150-6965-40bb-8d78-5307c8bd84b4/air-jordan-3-retro-mens-shoes-5M3ZlK.png",
-        "imgUrl3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1aeb8e78-b815-4af9-b359-28015cb5a789/air-jordan-3-retro-mens-shoes-5M3ZlK.png",
+        "url": [
+            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/34f07fee-ec12-4d46-b53f-6bced05247de/air-jordan-3-retro-mens-shoes-5M3ZlK.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1aab1150-6965-40bb-8d78-5307c8bd84b4/air-jordan-3-retro-mens-shoes-5M3ZlK.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1aeb8e78-b815-4af9-b359-28015cb5a789/air-jordan-3-retro-mens-shoes-5M3ZlK.png"
+        ],
         "info": "Clean and supreme, the AJ3 returns with all of its classic style and grace. Quality leather in the upper—with that luxurious elephant print texture—combines with visible Nike Air in the sole to make a comfortable, everyday icon.",
-        "sizes": ["8","9","10","12"]
+        "sizes": ["8","9","10","12"],
+        "category": "Shoes"
    
     },
     {
         "id": 4,
         "name": "Air Jordan 4 Retro",
         "price": 180.00,
-        "imgUrl": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d38a8673-342b-4d4a-bc9b-4c105018de19/air-jordan-4-retro-mens-shoes.png",
-        "imgUrl2": "https://static.nike.com/a/images/t_prod_sc/w_640,c_limit,f_auto/d85bfff4-e91b-4544-8462-e5bb0e351239/air-jordan-4-red-cement-dh6927-161-release-date.jpg",
-        "imgUrl3": "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/7f29caac-0e3f-4d6e-a603-35b5d66b468b/air-jordan-4-red-cement-dh6927-161-release-date.jpg",
+        "url": [
+            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d38a8673-342b-4d4a-bc9b-4c105018de19/air-jordan-4-retro-mens-shoes.png",
+            "https://static.nike.com/a/images/t_prod_sc/w_640,c_limit,f_auto/d85bfff4-e91b-4544-8462-e5bb0e351239/air-jordan-4-red-cement-dh6927-161-release-date.jpg",
+            "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/7f29caac-0e3f-4d6e-a603-35b5d66b468b/air-jordan-4-red-cement-dh6927-161-release-date.jpg"
+        ],
         "info": "New fire. Reigniting a beloved brand color, the AJ4 'Red Cement' brings a heritage twist to the buzzer-beating silhouette. Fire Red accents with a speckle effect recall the original 'White Cement' colorway, and crisp White leather keeps every 'fit feeling clean.",
-        "sizes": ["5","9","10","11"]
+        "sizes": ["5","9","10","11"],
+        "category": "Shoes"
  
     },
     {
         "id": 5,
         "name": "Air Jordan 5 Retro",
         "price": 200.00,
-        "imgUrl": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/00f2bef5-27b5-4c46-ab22-6a4f1202df71/air-jordan-5-retro-se-mens-shoes-07Xgmw.png",
-        "imgUrl2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fd8226b2-6c03-4b0b-a8a3-a7f2c9630602/air-jordan-5-retro-se-mens-shoes-07Xgmw.png",
-        "imgUrl3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/31193e40-bd54-47c0-bcc4-575535104fca/air-jordan-5-retro-se-mens-shoes-07Xgmw.png",
+        "url": [
+            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/00f2bef5-27b5-4c46-ab22-6a4f1202df71/air-jordan-5-retro-se-mens-shoes-07Xgmw.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fd8226b2-6c03-4b0b-a8a3-a7f2c9630602/air-jordan-5-retro-se-mens-shoes-07Xgmw.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/31193e40-bd54-47c0-bcc4-575535104fca/air-jordan-5-retro-se-mens-shoes-07Xgmw.png"
+        ],
         "info": "With its mesh-inspired grid and distinct midsole design, the AJ5 is unmistakable. This version features a mix of full-grain and synthetic leather for texture, plus that iconic lace lock.",
-        "sizes": ["8","9","10","11"]
+        "sizes": ["8","9","10","11"],
+        "category": "Shoes"
  
     },
     {
         "id": 6,
         "name": "Jordan 6",
         "price": 150.00,
-        "imgUrl": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/810ce140-954a-4002-aedb-ca459f1d9858/air-jordan-6-retro-mens-shoes-QLGPHR.png",
-        "imgUrl2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6e5c9238-8efc-4b36-9820-5bbeb0a45e54/air-jordan-6-retro-big-kids-shoes-yATYM4KO.png",
-        "imgUrl3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2b15f58-426d-4b1a-8fe0-614ed52ccd7e/air-jordan-6-retro-big-kids-shoes-yATYM4KO.png",
+        "url": [
+            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/810ce140-954a-4002-aedb-ca459f1d9858/air-jordan-6-retro-mens-shoes-QLGPHR.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6e5c9238-8efc-4b36-9820-5bbeb0a45e54/air-jordan-6-retro-big-kids-shoes-yATYM4KO.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b2b15f58-426d-4b1a-8fe0-614ed52ccd7e/air-jordan-6-retro-big-kids-shoes-yATYM4KO.png"
+        ],
         "info": "Celebrate the legendary career of 'His Airness' with the Jordan 6 Rings. Incorporating key features of each shoe worn during the championship series, it has premium details and lightweight, low-profile Zoom Air cushioning that delivers a responsive feel underfoot.",
-        "sizes": ["8","9","10","11"]
+        "sizes": ["8","9","10","11"],
+        "category": "Shoes"
 
     },
     {
         "id": 7,
         "name": "Jordan 7",
         "price": 175.00,
-        "imgUrl": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/59dd6e46-4b73-460e-b4b1-c9cba51099c3/air-jordan-7-retro-mens-shoes-B7QhMr.png",
-        "imgUrl2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/913219f9-160d-45a9-beb8-b57a2bc02a1f/air-jordan-7-retro-mens-shoes-B7QhMr.png",
-        "imgUrl3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/03a8d2fc-8413-49e9-a3a6-989ccf9346f7/air-jordan-7-retro-mens-shoes-B7QhMr.png",
+        "url": [
+            "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/59dd6e46-4b73-460e-b4b1-c9cba51099c3/air-jordan-7-retro-mens-shoes-B7QhMr.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/913219f9-160d-45a9-beb8-b57a2bc02a1f/air-jordan-7-retro-mens-shoes-B7QhMr.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/03a8d2fc-8413-49e9-a3a6-989ccf9346f7/air-jordan-7-retro-mens-shoes-B7QhMr.png"
+        ],
         "info": "Inspired by the shoe originally worn by MJ during the '92 season and summer of basketball, the Air Jordan 7 Retro revives its championship legacy for a new generation of sneakerheads." ,
-        "sizes": ["8","9","10","11"]
+        "sizes": ["8","9","10","11"],
+        "category": "Shoes"
   
+    },
+    {
+        "id": 8,
+        "name": "Jordan Flight Fleece",
+        "price": 75.00,
+        "url": [
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d060cf3c-4d86-4811-a1dd-303d98e4263f/jordan-flight-fleece-mens-pullover-hoodie-sNHVMK.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/29edab8c-5115-499e-87f2-8aa0e0f703a9/jordan-flight-fleece-mens-pullover-hoodie-sNHVMK.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9347f927-6dea-48d4-9e76-b46aa85c4533/jordan-flight-fleece-mens-pullover-hoodie-sNHVMK.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/0495714f-b0a5-435d-b97e-f98f21ee3da5/jordan-flight-fleece-mens-pullover-hoodie-sNHVMK.png"
+        ],
+        "info": "Meet your new go-to hoodie. Heavyweight fleece feels super soft, and the comfy, relaxed fit will have you reaching for it again and again. An oversized Jumpman label is sewn on front-and-center, making this wardrobe staple anything but basic." ,
+        "sizes": ["S","M","L","XL"],
+        "category": "Hoodies"
+    },
+    {
+        "id": 9,
+        "name": "Jordan Renegade Jacket",
+        "price": 250.00,
+        "url": [
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/cd113670-5530-44b2-8314-2360c35f7e36/jordan-essentials-mens-renegade-jacket-VpCtGC.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7d8c658e-8354-4eca-b032-6a56f33d00fb/jordan-essentials-mens-renegade-jacket-VpCtGC.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/86d756ff-e45b-49e0-9f4f-cf0a76c42463/jordan-essentials-mens-renegade-jacket-VpCtGC.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b4bf9cf2-95db-48e0-8554-adbf0958b571/jordan-essentials-mens-renegade-jacket-VpCtGC.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/93e8a18e-d8a1-4fa8-8ecb-25c74eb554c3/jordan-essentials-mens-renegade-jacket-VpCtGC.png"
+        ],
+        "info": "Your classic bomber jacket gets a Jordan makeover so you can stay fly for fall. Lightweight, water-repellent fabric keeps the weather out while insulation helps you stay cozy. Gusset construction on the back shoulders gives you flexibility without sacrificing the jacket's cut (or your style). And that arm pocket? It's an eye-catching extra storage moment.",
+        "sizes": ["S","M","L","XL","XXL"],
+        "category": "Jackets"
+    },
+    {
+        "id": 10,
+        "name": "Jordan Sport Jam Pants",
+        "price": 70.00,
+        "url": [
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9bc407c6-4fcc-41bf-af70-f402217e975b/jordan-sport-jam-mens-warm-up-pants-n551RP.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/05539477-5146-488a-b3e2-256ea1d4e40a/jordan-sport-jam-mens-warm-up-pants-n551RP.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/5820e6d8-b7e7-4c26-99f1-d42fd4857a53/jordan-sport-jam-mens-warm-up-pants-n551RP.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/62bf744f-8c9b-4f3f-813e-f41de06fd299/jordan-sport-jam-mens-warm-up-pants-n551RP.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/4cef0962-2eff-4429-8985-91a2cc52ce78/jordan-sport-jam-mens-warm-up-pants-n551RP.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d34aad8d-8d74-4caa-a558-4734bca06f38/jordan-sport-jam-mens-warm-up-pants-n551RP.png"
+        ],
+        "info": "Get dressed, head out, put in work. Made with lightweight woven material, these pants are a modern take on MJ's iconic Wings warmup look.",
+        "sizes": ["XS","S","M","L","XL"],
+        "category": "Pants"
+    },
+    {
+        "id": 11,
+        "name": "Jordan Fleece Shorts",
+        "price": 50.00,
+        "url": [
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2245bffa-3d67-4fb6-a313-b52def817760/jordan-essentials-mens-fleece-shorts-9LNGMv.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/6e9cb2e1-25a9-4e79-a5f6-6e784199de75/jordan-essentials-mens-fleece-shorts-9LNGMv.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/32a57eae-29b9-49dd-bb4d-4731634f9c8b/jordan-essentials-mens-fleece-shorts-9LNGMv.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/d991fccc-cce7-4029-9c84-f305a0e9aad1/jordan-essentials-mens-fleece-shorts-9LNGMv.png"
+        ],
+        "info": "You want a pair of shorts that are simple and look good? Here you go. They're made of soft fleece that's smooth on the outside and plush on the inside, helping you stay comfy all day.",
+        "sizes": ["S","M","L","XL"],
+        "category": "Shorts"
+    },
+    {
+        "id": 12,
+        "name": "Jordan Logo Stretch T-Shirt",
+        "price": 30.00,
+        "url": [
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bb2feb42-85b9-4897-96ca-a3379c164539/jordan-air-mens-stretch-t-shirt-fW22Sk.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b506e23f-7a96-432d-8d9a-1897e4da65f9/jordan-air-mens-stretch-t-shirt-fW22Sk.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/592a7b2a-f071-43a2-bfc1-b317e1144c17/jordan-air-mens-stretch-t-shirt-fW22Sk.png"
+        ],
+        "info": "Show off your MJ pride with an extra-large print that covers your full wingspan, sleeve to sleeve. Printed on stretchy cotton, this is your new bold and comfortable go-to.",
+        "sizes": ["S","M","L","XL","XXL"],
+        "category": "T-Shirts"
+    },
+    {
+        "id": 13,
+        "name": "Jordan Oversized Graphic T-Shirt",
+        "price": 40.00,
+        "url": [
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3c5f12ee-8184-4e49-9237-c6570d5cdc21/jordan-essentials-mens-oversized-graphic-t-shirt-zp7GZG.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bb3950dd-5c7d-4b09-a994-972474644d67/jordan-essentials-mens-oversized-graphic-t-shirt-zp7GZG.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/dfd95fe2-0c28-4014-b16c-f9be4d3850a7/jordan-essentials-mens-oversized-graphic-t-shirt-zp7GZG.png",
+            "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3c67ba5a-8bb7-4270-9aed-f4eaeeac27f6/jordan-essentials-mens-oversized-graphic-t-shirt-zp7GZG.png"
+        ],
+        "info": "Baggy, comfy, cool, what's it to you? This roomy, everyday tee features an allover tie-dye effect, adding a seasonal touch to your 'fit.",
+        "sizes": ["S","M","L","XL","XXL"],
+        "category": "T-Shirts"
     }
-
 ]

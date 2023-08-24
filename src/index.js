@@ -2,9 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-toastify/dist/ReactToastify.css';
 import './index.css';
 import { BrowserRouter } from 'react-router-dom';
-import { ShoppingCartProvider } from "./context/ShoppingCartContext.jsx";
+import { ShoppingCartProvider } from "./hooks/ShoppingCartContext.jsx";
+import { ToastContainer } from 'react-toastify';
 
 
 
@@ -14,6 +16,7 @@ root.render(
     <ShoppingCartProvider>
       <BrowserRouter>
         <App />
+        <ToastContainer limit={2}/>
       </BrowserRouter>
     </ShoppingCartProvider>
   </React.StrictMode>

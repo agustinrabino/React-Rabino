@@ -1,6 +1,5 @@
 import { createContext, useContext, useState } from "react";
-
-
+import { toast } from 'react-toastify';
 
 const ShoppingCartContext = createContext()
 
@@ -14,8 +13,19 @@ export function ShoppingCartProvider({children}) {
     const cartQuantity = cartItems.reduce(
         (quantity, item) => item.quantity + quantity, 0
         )
-
+    
+    
     function addCartQuantity(id, number, size) {
+        toast.success('Item added to cart', {
+            position: "top-center",
+            autoClose: 200,
+            hideProgressBar: true,
+            closeOnClick: true,
+            pauseOnHover: false,
+            draggable: false,
+            progress: undefined,
+            theme: "colored",
+            });
         setCartItems(currItems => {
             if (currItems.find(item => (item.id ===id && item.size == size)) == null){
                 return(
@@ -65,11 +75,7 @@ export function ShoppingCartProvider({children}) {
 
     function decreaseQuantity(id, size) {
         setCartItems(currItems => {
-            if (currItems.find(item => (item.id === id && item.size == size))?.quantity ===1){
-                return(
-                    currItems.filter (item =>(item.id !==id || item.size != size))
-                )
-            } else {
+            if (currItems.find(item => (item.id === id && item.size == size))!==undefined){
                 return(
                     currItems.map(item => {
                         if (item.id === id && item.size == size) {
