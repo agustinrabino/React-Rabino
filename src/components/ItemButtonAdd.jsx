@@ -1,4 +1,4 @@
-import { useShoppingCart } from '../hooks/ShoppingCartContext';
+import { useShoppingCart } from '../context/ShoppingCartContext';
 import { useQuantity } from '../hooks/useQuantity';
 import { useSize } from '../hooks/useSize';
 import { Button } from './Button'
@@ -16,8 +16,13 @@ export function ItemButtonAdd({id, sizes}) {
                 <ItemButtonSize handleClickSize={handleClickSize} sizes={sizes}></ItemButtonSize>
                 <ItemButtonQuantity quantity={quantity} handleClickDecrement={handleClickDecrement} handleClickIncrement={handleClickIncrement}></ItemButtonQuantity>
             </div>
+            {quantity == 0 ?
+            <div className='d-flex justify-content-center' style={{ backgroundColor:"grey", borderRadius:"10px", width:"clamp(240px, 10vw, 500px)", gap:"5px", padding:"1px 8px"}}>
+               <Button buttonStyle="addItemCart">Add to Cart</Button>
+            </div> : 
             <div className='d-flex justify-content-center' style={{ backgroundColor:"black", borderRadius:"10px", width:"clamp(240px, 10vw, 500px)", gap:"5px", padding:"1px 8px"}}>
                 <Button onClick={()=>addCartQuantity(id, quantity, size)} buttonStyle="addItemCart">Add to Cart</Button>
-            </div>
+            </div>}
+             
         </div>
         )}

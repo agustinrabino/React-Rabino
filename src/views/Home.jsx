@@ -10,7 +10,7 @@ export function Home() {
 
   return (
     <>
-      <Container className="d-flex flex-sm-row flex-column align-items-center gap-2 " style={{
+      <Container className="d-flex flex-sm-row flex-column align-items-center gap-2" style={{
             height: "clamp(500px, 50vw, 900px)",
             backgroundColor: "#F6F6F6"   }}>
           <div className="d-flex flex-column align-items-start gap-sm-5 w-25" style={{minWidth:"190px"}}>
@@ -23,9 +23,7 @@ export function Home() {
           </div>
           <HeroCarousel carouselWidth="w-75" shoe={shoe}></HeroCarousel>
       </Container>
-      <div className="App">
-
-      </div>
+      <div className="App">designed by Agustin Rabino</div>
     </>
   );
 }

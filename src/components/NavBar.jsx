@@ -30,7 +30,7 @@ export function NavBar() {
               <ul className='navbar-nav'>
                 <Nav.Link to="/products" as={NavLink}>Products</Nav.Link>
                 <Nav.Link to="/categories" as={NavLink}>Categories</Nav.Link>
-                <Nav.Link to="/newarrivals" as={NavLink}>New Arrivals</Nav.Link>
+                <Nav.Link to="/aboutus" as={NavLink}>About us</Nav.Link>
               </ul>
             </div>
             <CartWidget/>

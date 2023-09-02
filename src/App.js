@@ -2,9 +2,9 @@ import { NavBar } from "./components/NavBar.jsx";
 import { Routes, Route } from "react-router-dom";
 import { Home } from "./views/Home.jsx";
 import { Categories } from "./views/Categories.jsx";
-import { NewArrivals } from "./views/NewArrivals.jsx";
+import { AboutUs } from "./views/AboutUs.jsx";
 import { Products } from "./views/Products.jsx";
-import { ItemDetails } from "./views/ItemDetails.jsx";
+import { ItemDetailsContainer } from "./views/ItemDetailsContainer.jsx";
 import "./App.css";
 
 function App() {
@@ -15,8 +15,8 @@ function App() {
           <Route path="/" element={<Home/>} />
           <Route path="/products" element={<Products/>} />
           <Route path="/categories" element={<Categories />} />
-          <Route path="/newarrivals" element={<NewArrivals/>} />
-          <Route path="/products/:ID" element={<ItemDetails/>} />
+          <Route path="/aboutus" element={<AboutUs/>} />
+          <Route path="/products/:ID" element={<ItemDetailsContainer/>} />
           <Route path="*" element={404} />
         </Routes>
     </>

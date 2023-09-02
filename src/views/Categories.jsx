@@ -12,6 +12,7 @@ const uniqueCategories = new Set(categories)
     return( 
     <Container>
         <h1>Categories</h1>
+        <h3>Browse our different categories using the accordion style menu</h3>
         <Accordion defaultActiveKey="0">
             {[...uniqueCategories].map( c => (
                 <Accordion.Item key={c} eventKey={c}>

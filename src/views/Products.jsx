@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
 import { ItemListContainer } from "../components/ItemListContainer";
-import { useShoppingCart } from "../hooks/ShoppingCartContext";
+import { useShoppingCart } from "../context/ShoppingCartContext";
 
 export function Products() {
     const {cartQuantity} = useShoppingCart()

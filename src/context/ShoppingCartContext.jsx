@@ -12,8 +12,7 @@ export function ShoppingCartProvider({children}) {
 
     const cartQuantity = cartItems.reduce(
         (quantity, item) => item.quantity + quantity, 0
-        )
-    
+    )
     
     function addCartQuantity(id, number, size) {
         toast.success('Item added to cart', {

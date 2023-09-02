@@ -1,5 +1,5 @@
 import { Stack, Button } from "react-bootstrap";
-import { useShoppingCart } from "../hooks/ShoppingCartContext";
+import { useShoppingCart } from "../context/ShoppingCartContext";
 import storeItems from "../data/StoreItems.json"
 import { Button as MyButton} from "./Button"
 import { FormatCurrency } from '../helper/FormatCurrency';

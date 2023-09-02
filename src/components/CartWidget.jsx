@@ -1,5 +1,5 @@
 import { ShoppingCart } from "./ShoppingCart";
-import { useShoppingCart } from "../hooks/ShoppingCartContext.jsx"
+import { useShoppingCart } from "../context/ShoppingCartContext.jsx"
 
 const styleNumberCart = {
   fontSize:"13px",

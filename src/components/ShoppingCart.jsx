@@ -1,7 +1,7 @@
 import { React, useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
-import { useShoppingCart } from '../hooks/ShoppingCartContext';
+import { useShoppingCart } from "../context/ShoppingCartContext";
 import { Stack, Button, Modal } from 'react-bootstrap';
 import { ShoppingCartItem } from './ShoppingCartItem';
 import { FormatCurrency } from '../helper/FormatCurrency';
