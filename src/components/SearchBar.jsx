@@ -1,10 +1,11 @@
 import Form from 'react-bootstrap/Form';
-import data from "../data/StoreItems.json"
-
-const categories = data.map(item => item.category)
-const uniqueCategories = new Set(categories)
+import { useShoppingCart } from "../context/ShoppingCartContext";
 
 export function SearchBar({updateFilter, changeSelect}) {
+    const { storeItems } = useShoppingCart()
+    const categories = storeItems.map(item => item.category)
+    const uniqueCategories = new Set(categories)
+    
     return (
         <div className='d-flex justify-content-between align-items-center mb-2'>
             <div>

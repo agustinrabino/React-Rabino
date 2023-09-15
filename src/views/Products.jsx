@@ -6,12 +6,10 @@ export function Products() {
     const {cartQuantity} = useShoppingCart()
 
     return( 
-    <>
-    <Container>
-        <h1>Products</h1>
-        <ItemListContainer greeting={cartQuantity}></ItemListContainer>
-    </Container>
-    </>
+        <Container>
+            <h1>Products</h1>
+            <ItemListContainer greeting={cartQuantity}></ItemListContainer>
+        </Container>
     )
 }
 

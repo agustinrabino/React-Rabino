@@ -1,16 +1,15 @@
 import Card from 'react-bootstrap/Card';
 import { FormatCurrency } from '../helper/FormatCurrency';
-import { ItemButtonAdd } from './ItemButtonAdd';
-import { Button } from "./Button.jsx"
+import { ItemButton } from './ItemButton';
+import { MyButton } from "./MyButton.jsx"
 import { NavLink } from 'react-router-dom'
 
 export function Item({id, name, price, url, sizes}) {
-
-    return (
+  return (
     <Card border="dark" className='h-100' style={{position: "relative"}}>
       <Card.Img variant="top" src={url[0]} style={{height:"250px", objectFit:"cover"}}/>
       <NavLink to={`/products/${id}`}>
-        <Button buttonStyle="moreInfo">More Info</Button>
+        <MyButton buttonStyle="moreInfo">More Info</MyButton>
       </NavLink>
       <Card.Body className='d-flex flex-column align-items-center justify-content-between'>
         <div className='mb-3 w-100 px-3'>
@@ -19,7 +18,7 @@ export function Item({id, name, price, url, sizes}) {
             <span style={{ fontSize:"24px", marginLeft:"8px" }}>{FormatCurrency(price)}</span>
           </Card.Text>
         </div>
-        <ItemButtonAdd id={id} sizes={sizes}></ItemButtonAdd>
+        <ItemButton id={id} sizes={sizes}></ItemButton>
       </Card.Body>
     </Card>
   );

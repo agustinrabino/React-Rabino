@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
 import { HeroCarousel } from "./HeroCarousel";
-import { ItemButtonAdd } from "./ItemButtonAdd";
+import { ItemButton } from "./ItemButton";
 
 export function ItemDetails({item}) {
     return(
@@ -13,7 +13,7 @@ export function ItemDetails({item}) {
                 <h2>{item.name}</h2>
                 <p >{item.info}</p>
                 <div className="d-flex justify-content-evenly w-100 mt-auto">
-                    <ItemButtonAdd id={item.id} sizes={item.sizes}></ItemButtonAdd>
+                    <ItemButton id={item.id} sizes={item.sizes} stock={item.stock}></ItemButton>
                 </div>
             </div>
         </Container>

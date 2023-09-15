@@ -1,16 +1,14 @@
-import data from "../data/StoreItems.json"
-import { useFetchFilter } from "../hooks/useFetchFilter";
+import { useGetCollection } from "../hooks/useGetCollection";
 import { ItemList } from "./ItemList"
-import { ItemListContainerLoading } from "./ItemListContainerLoading";
-
+import { ItemLoading } from "./ItemLoading";
 
 export function ItemListContainer(props) {
-    const { storeItems, changeSelect } = useFetchFilter(data)
+    const { storeItems, changeSelect } = useGetCollection()
 
     return(
         <>
-        <h4>Welcome! you have {props.greeting} items in your shopping cart</h4>
-        {storeItems.length === 0 ? (<ItemListContainerLoading />) : (<ItemList storeItems={storeItems} changeSelect={changeSelect}/>)}
+            <h4>Welcome! you have {props.greeting} items in your shopping cart</h4>
+            {storeItems.length === 0 ? (<ItemLoading />) : (<ItemList storeItems={storeItems} changeSelect={changeSelect}/>)}
         </>
     )
 }

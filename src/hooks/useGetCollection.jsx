@@ -1,18 +1,20 @@
 import { useState, useEffect } from "react"
+import { getFirestore, getDocs, collection } from "firebase/firestore"
 
-export function useFetchFilter(data) {
+export function useGetCollection() {
     const [storeItems, setStoreItems] = useState([])
     const [storeRenderItems, setStoreRenderItems] = useState([])
     const [categories, setCategories] = useState('ALL')
 
     useEffect(()=>{
-        const promise = new Promise((resolve, reject)=>{
-            setTimeout(()=> resolve(data),1000)
+        const db = getFirestore();
+
+        const ItemsFirestore = collection(db, "Items");
+        getDocs(ItemsFirestore).then(result => {
+            setStoreItems(result.docs.map((doc)=>({id: doc.id, ...doc.data()})));
+            setStoreRenderItems(result.docs.map((doc)=>({id: doc.id, ...doc.data()})))
         })
-        promise.then(result => {
-            setStoreItems(result)
-            setStoreRenderItems(result)})
-    }, [data])
+    }, [])
 
     const changeSelect = (e) => {
         setCategories(e.target.value)

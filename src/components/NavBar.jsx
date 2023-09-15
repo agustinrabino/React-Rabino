@@ -1,10 +1,9 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/logo-shoe.svg';
-import { CartWidget } from './CartWidget';
+import { ShoppingCartWidget } from './ShoppingCartWidget';
 import { NavLink } from "react-router-dom"
 import { Nav } from 'react-bootstrap';
-
 
 export function NavBar() {
   return (
@@ -33,7 +32,7 @@ export function NavBar() {
                 <Nav.Link to="/aboutus" as={NavLink}>About us</Nav.Link>
               </ul>
             </div>
-            <CartWidget/>
+            <ShoppingCartWidget/>
           </Navbar.Collapse>
         </Container>
       </Navbar>

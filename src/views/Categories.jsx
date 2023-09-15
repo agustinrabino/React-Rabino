@@ -1,12 +1,11 @@
 import { Container, Col, Row } from "react-bootstrap";
 import Accordion from 'react-bootstrap/Accordion';
-import data from "../data/StoreItems.json"
-import { useFetchFilter } from "../hooks/useFetchFilter";
+import { useGetCollection } from "../hooks/useGetCollection";
 import { Item } from "../components/Item"
 
 export function Categories() {
-const { storeItems } = useFetchFilter(data)
-const categories = data.map(item => item.category)
+const { storeItems } = useGetCollection()
+const categories = storeItems.map(item => item.category)
 const uniqueCategories = new Set(categories)
 
     return( 

@@ -12,7 +12,7 @@ export function HeroCarousel({carouselWidth, shoe}) {
     <Carousel className={` ${carouselWidth}`} style={styleCarouselItem}>
       {shoe.url.map(i => (
         <Carousel.Item key={i} className="w-100" style={styleCarouselItem}>
-        <img src={i} style={styleCarouselImg}alt="" />
+          <img src={i} style={styleCarouselImg} alt="" />
         </Carousel.Item>
       ))}
     </Carousel>
