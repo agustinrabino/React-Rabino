@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import { HeroCarousel } from "./HeroCarousel";
+import { HomeHeroCarousel } from "./HomeHeroCarousel";
 import { ItemButton } from "./ItemButton";
 
 export function ItemDetails({item}) {
@@ -8,7 +8,7 @@ export function ItemDetails({item}) {
             height: "100%",
             width:"100%",
             backgroundColor: "#F6F6F6"   }}>
-            <HeroCarousel carouselWidth="w-md-50 w-100" shoe={item}></HeroCarousel>
+            <HomeHeroCarousel carouselWidth="w-md-50 w-100" shoe={item}></HomeHeroCarousel>
             <div className="d-flex flex-column justify-content-center align-items-start gap-5 w-100 w-md-50 px-2 py-5">
                 <h2>{item.name}</h2>
                 <p >{item.info}</p>

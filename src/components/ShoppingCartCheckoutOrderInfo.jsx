@@ -58,7 +58,7 @@ const handleSubmit = (e)=>{
                             onChange={handleChange}
                             value={formValues.phone}/>
                         </Form.Group>   
-                        <MyButton type="submit">Complete purchase</MyButton>
+                        <MyButton type="submit" buttonStyle="checkout">Complete purchase</MyButton>
                     </Form>
                 </Container>)
             }

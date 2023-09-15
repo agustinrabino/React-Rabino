@@ -1,6 +1,6 @@
 import { Container } from "react-bootstrap";
 import { MyButton } from "../components/MyButton";
-import { HeroCarousel } from "../components/HeroCarousel";
+import { HomeHeroCarousel } from "../components/HomeHeroCarousel";
 import { NavLink } from "react-router-dom"
 import { useGetDocByID } from "../hooks/useGetDocByID";
 import { ItemLoading } from "../components/ItemLoading";
@@ -24,7 +24,7 @@ export function Home() {
                 <NavLink to="/products"><MyButton buttonStyle="CTA">Explore</MyButton></NavLink>
             </div>
           </div>
-          <HeroCarousel carouselWidth="w-75" shoe={storeItem}></HeroCarousel>
+          <HomeHeroCarousel carouselWidth="w-75" shoe={storeItem}></HomeHeroCarousel>
       </Container>)}
       <div className="App">designed by Agustin Rabino</div>
     </>

@@ -87,3 +87,16 @@
 .moreInfo:hover{
   opacity: 100%;
 }
+
+.checkout{
+  border: 2px solid black;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 4px 12px;
+  width: 195px
+}
+  
+.checkout:hover{
+    background-color: #282c34;
+    color: white;   
+}   

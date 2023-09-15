@@ -7,7 +7,7 @@ const styleCarouselImg={
 }
 const styleCarouselItem = { height: "clamp(300px, 50vw, 700px)" }
 
-export function HeroCarousel({carouselWidth, shoe}) {
+export function HomeHeroCarousel({carouselWidth, shoe}) {
   return (
     <Carousel className={` ${carouselWidth}`} style={styleCarouselItem}>
       {shoe.url.map(i => (
